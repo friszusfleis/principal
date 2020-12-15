@@ -101,13 +101,13 @@
       <h1>Mozilla</h1>
       <!-- insert <img> element, link to the small
           version of the Firefox logo -->
-
+    <img src="originals/firefox_logo-only_RGB120.png">
     </header>
 
     <main>
       <article>
         <!-- insert iframe from youtube -->
-
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ojcNcvb1olg" frameborder="0" allowfullscreen></iframe>
         <h2>Rocking the free web</h2>
 
         <p>Mozilla are a global community of technologists, thinkers, and builders, working together to keep the Internet alive and accessible, so people worldwide can be informed contributors and creators of the Web. We believe this act of human collaboration across an open platform is essential to individual growth and our collective future.</p>
@@ -117,23 +117,40 @@
 
       <div class="further-info">
         <!-- insert images with srcsets and sizes -->
-        <a href="https://www.mozilla.org/en-US/firefox/new/">
-          <img>
+        <a href="https://www.mozilla.org/en-US/firefox/new/">  
+          <img srcset="C:\Users\SMX-M\principal\examenes\html\examen 3\firefox_logo-only_RGB.png 120w,
+          C:\Users\SMX-M\principal\examenes\html\examen 3\firefox_logo-only_RGB.png 396w"
+               sizes="(max-width: 480px) 120px,
+                      400px"
+               src="C:\Users\SMX-M\principal\examenes\html\examen 3\firefox_logo-only_RGB.png">
         </a>
         <a href="https://www.mozilla.org/">
-          <img>
+          <img srcset="C:\Users\SMX-M\principal\examenes\html\examen 3\mozilla-dinosaur-head.png 120w,
+                       C:\Users\SMX-M\principal\examenes\html\examen 3\mozilla-dinosaur-head.png 396w"
+               sizes="(max-width: 480px) 120px,
+                      400px"
+               src="C:\Users\SMX-M\principal\examenes\html\examen 3\mozilla-dinosaur-head.png">
         </a>
         <a href="https://addons.mozilla.org/">
-          <img>
+          <img srcset="C:\Users\SMX-M\principal\examenes\html\examen 3\firefox-addons.jpg 120w,
+                       C:\Users\SMX-M\principal\examenes\html\examen 3\firefox-addons.jpg 400w"
+               sizes="(max-width: 480px) 120px,
+                      400px"
+               src="C:\Users\SMX-M\principal\examenes\html\examen 3\firefox-addons.jpg">
         </a>
         <a href="https://developer.mozilla.org/en-US/">
-          <img>
+          <img src="C:\Users\SMX-M\principal\examenes\html\examen 3\mdn.svg">
         </a>
         <div class="clearfix"></div>
       </div>
 
       <div class="red-panda">
         <!-- insert picture element -->
+        <picture>
+          <source media="(max-width: 599px)" srcset="C:\Users\SMX-M\principal\examenes\html\examen 3\red-panda.jpg">
+          <source media="(min-width: 600px)" srcset="C:\Users\SMX-M\principal\examenes\html\examen 3\red-panda.jpg">
+          <img src="C:\Users\SMX-M\principal\examenes\html\examen 3\red-panda.jpg">
+        </picture>
       </div>
 
     </main>
