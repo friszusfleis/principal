@@ -1,5 +1,5 @@
  Variables
-red #ad0000 ;
+red #ad0000 
 
 Placeholder selectors
 transition {
@@ -141,7 +141,7 @@ hr {
   background-size: cover;
 
   after {
-    content: "a";
+    content: "";
     position {absolute} ;
     top: 0;
     left: 0;
