@@ -1,0 +1,902 @@
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400");
+* {
+  box-sizing: border-box;
+}
+.animate-enter {
+  animation: animate-enter-frames 0.2s ease-in-out 0s 1 normal forwards;
+  display: block;
+  opacity: 0;
+  transform: scale(0.9);
+}
+.desktop-4 {
+  background-color: black;
+  height: 2979px;
+  position: relative;
+  width: 1440px;
+  opacity: 0;
+  transform: scale(0.9);
+}
+.desktop-4 .acopeix-sl {
+  height: 23px;
+  left: 371px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1282px;
+  width: 163px;
+}
+.desktop-4 .adress {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 154px;
+}
+.desktop-4 .birth-date {
+  height: 26px;
+  left: 74px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 9px;
+  width: 406px;
+}
+.desktop-4 .company {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 146px;
+}
+.desktop-4 .croqueta-10 {
+  height: 23px;
+  left: 372px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 779px;
+  width: 171px;
+}
+.desktop-4 .curriculim-vitae {
+  height: 34px;
+  letter-spacing: 0px;
+  min-height: 34px;
+  text-align: center;
+  width: 357px;
+}
+.desktop-4 .date {
+  height: 23px;
+  left: 419px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 666px;
+  width: 371px;
+}
+.desktop-4 .datos-personales-2 {
+  height: 10px;
+  left: 11px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 24px;
+  width: 54px;
+}
+.desktop-4 .exterior {
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 73px;
+}
+.desktop-4 .exterior-1 {
+  height: 56px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 60px;
+}
+.desktop-4 .exterior-2 {
+  height: 49px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 53px;
+}
+.desktop-4 .exterior-blanco-otros-2 {
+  height: 56px;
+  left: 4px;
+  position: absolute;
+  top: 6px;
+  width: 56px;
+}
+.desktop-4 .exterior-blanco-otros-3 {
+  height: 56px;
+  left: 6px;
+  position: absolute;
+  top: 6px;
+  width: 54px;
+}
+.desktop-4 .exterior-negro-otros-2 {
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 66px;
+}
+.desktop-4 .exterior-negro-otros-3 {
+  height: 67px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 65px;
+}
+.desktop-4 .exterior-negro-sitios-2 {
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 74px;
+}
+.desktop-4 .exterior-negro-sitios-3 {
+  height: 68px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 75px;
+}
+.desktop-4 .exterior-sitios-2 {
+  height: 56px;
+  left: 5px;
+  position: absolute;
+  top: 6px;
+  width: 62px;
+}
+.desktop-4 .foto {
+  height: 28px;
+  letter-spacing: 0px;
+  min-height: 28px;
+  width: 50px;
+}
+.desktop-4 .genre {
+  height: 25px;
+  left: 74px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 10px;
+  width: 406px;
+}
+.desktop-4 .git-hub-text {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 109px;
+}
+.desktop-4 .github-icon {
+  height: 89px;
+  left: 436px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 2089px;
+  transition: all 0.2s ease;
+  width: 109px;
+}
+.desktop-4 .github-icon:hover {
+  filter: blur(10px);
+}
+.desktop-4 .hombre {
+  height: 23px;
+  left: 419px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 545px;
+  width: 371px;
+}
+.desktop-4 .iconos-referencia-correo-1 {
+  height: 102px;
+  left: 378px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 1008px;
+  transition: all 0.2s ease;
+  width: 98px;
+}
+.desktop-4 .iconos-referencia-correo-1:hover {
+  filter: blur(10px);
+}
+.desktop-4 .ilerna-lleida {
+  height: 23px;
+  left: 806px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1839px;
+  width: 286px;
+}
+.desktop-4 .instagram-icon {
+  height: 89px;
+  left: 916px;
+  object-fit: cover;
+  pointer-events: auto;
+  position: absolute;
+  top: 2089px;
+  transition: all 0.2s ease;
+  width: 91px;
+}
+.desktop-4 .instagram-icon:hover {
+  filter: blur(10px);
+}
+.desktop-4 .instagram-text {
+  height: 26px;
+  letter-spacing: 0px;
+  min-height: 26px;
+  width: 157px;
+}
+.desktop-4 .interior-negro-otros-2 {
+  height: 49px;
+  left: 9px;
+  position: absolute;
+  top: 9px;
+  width: 47px;
+}
+.desktop-4 .interior-negro-otros-3 {
+  height: 48px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 46px;
+}
+.desktop-4 .interior-sitios-2 {
+  height: 49px;
+  left: 9px;
+  position: absolute;
+  top: 10px;
+  width: 54px;
+}
+.desktop-4 .interior-sitios-3 {
+  height: 49px;
+  left: 10px;
+  position: absolute;
+  top: 10px;
+  width: 54px;
+}
+.desktop-4 .laboral-experience {
+  height: 9px;
+  left: 7px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 25px;
+  width: 53px;
+}
+.desktop-4 .laboral-experience-1 {
+  height: 26px;
+  left: 83px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 24px;
+  width: 360px;
+}
+.desktop-4 .labors {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 130px;
+}
+.desktop-4 .marco-nombre {
+  height: 46px;
+  left: 40px;
+  position: absolute;
+  top: 13px;
+  width: 569px;
+}
+.desktop-4 .marco-nombre-1 {
+  height: 46px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 458px;
+}
+.desktop-4 .marco-otros {
+  height: 46px;
+  left: 35px;
+  position: absolute;
+  top: 10px;
+  width: 574px;
+}
+.desktop-4 .marco-otros-1 {
+  height: 45px;
+  left: 35px;
+  position: absolute;
+  top: 11px;
+  width: 575px;
+}
+.desktop-4 .marco-sitios-2 {
+  height: 46px;
+  left: 41px;
+  position: absolute;
+  top: 13px;
+  width: 569px;
+}
+.desktop-4 .marco-sitios-3 {
+  height: 46px;
+  left: 42px;
+  position: absolute;
+  top: 13px;
+  width: 568px;
+}
+.desktop-4 .number {
+  height: 23px;
+  left: 922px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 783px;
+  width: 164px;
+}
+.desktop-4 .overlap-group {
+  align-items: flex-start;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 355px;
+  min-width: 233px;
+  padding: 10px 29px;
+  position: absolute;
+  top: 721px;
+}
+.desktop-4 .overlap-group1 {
+  align-items: flex-start;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 833px;
+  min-width: 227px;
+  padding: 8px 22px;
+  position: absolute;
+  top: 2018px;
+}
+.desktop-4 .overlap-group10 {
+  align-items: flex-end;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 351px;
+  min-width: 210px;
+  padding: 10px 25px;
+  position: absolute;
+  top: 1370px;
+}
+.desktop-4 .overlap-group11 {
+  height: 68px;
+  left: 342px;
+  position: absolute;
+  top: 1908px;
+  width: 610px;
+}
+.desktop-4 .overlap-group12 {
+  height: 46px;
+  left: 355px;
+  position: absolute;
+  top: 380px;
+  width: 480px;
+}
+.desktop-4 .overlap-group13 {
+  align-items: flex-start;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 375px;
+  min-width: 220px;
+  padding: 10px 48px;
+  position: absolute;
+  top: 2021px;
+}
+.desktop-4 .overlap-group14 {
+  height: 45px;
+  left: 355px;
+  position: absolute;
+  top: 600px;
+  width: 480px;
+}
+.desktop-4 .overlap-group15 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 806px;
+  min-width: 209px;
+  padding: 0 25px;
+  position: absolute;
+  top: 1772px;
+}
+.desktop-4 .overlap-group16 {
+  align-items: flex-end;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 119px;
+  justify-content: flex-end;
+  left: 148px;
+  min-width: 1243px;
+  padding: 42px 442px;
+  position: absolute;
+  top: 32px;
+}
+.desktop-4 .overlap-group17 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  left: 861px;
+  min-width: 189px;
+  padding: 0 4px;
+  position: absolute;
+  top: 1223px;
+}
+.desktop-4 .overlap-group18 {
+  height: 67px;
+  left: 332px;
+  position: absolute;
+  top: 1126px;
+  width: 609px;
+}
+.desktop-4 .overlap-group19 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  left: 362px;
+  min-width: 226px;
+  padding: 0 24px;
+  position: absolute;
+  top: 956px;
+}
+.desktop-4 .overlap-group2 {
+  height: 67px;
+  left: 336px;
+  position: absolute;
+  top: 1518px;
+  width: 610px;
+}
+.desktop-4 .overlap-group20 {
+  height: 46px;
+  left: 355px;
+  position: absolute;
+  top: 478px;
+  width: 480px;
+}
+.desktop-4 .overlap-group21 {
+  align-items: flex-end;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 852px;
+  min-width: 175px;
+  padding: 10px 5px;
+  position: absolute;
+  top: 1370px;
+}
+.desktop-4 .overlap-group22 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 336px;
+  min-width: 210px;
+  padding: 0 26px;
+  position: absolute;
+  top: 1772px;
+}
+.desktop-4 .overlap-group23 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 822px;
+  min-width: 210px;
+  padding: 0 28px;
+  position: absolute;
+  top: 1636px;
+}
+.desktop-4 .overlap-group24 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  left: 873px;
+  min-width: 181px;
+  padding: 0 10px;
+  position: absolute;
+  top: 847px;
+}
+.desktop-4 .overlap-group3 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 351px;
+  min-width: 210px;
+  padding: 0 25px;
+  position: absolute;
+  top: 1636px;
+}
+.desktop-4 .overlap-group4 {
+  height: 68px;
+  left: 336px;
+  position: absolute;
+  top: 2218px;
+  width: 610px;
+}
+.desktop-4 .overlap-group5 {
+  height: 68px;
+  left: 332px;
+  position: absolute;
+  top: 274px;
+  width: 609px;
+}
+.desktop-4 .overlap-group6 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 286px;
+  justify-content: flex-end;
+  left: 1013px;
+  min-width: 275px;
+  padding: 0 95px;
+  position: absolute;
+  top: 291px;
+}
+.desktop-4 .overlap-group7 {
+  align-items: center;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 45px;
+  justify-content: flex-end;
+  left: 351px;
+  min-width: 237px;
+  padding: 0 34px;
+  position: absolute;
+  top: 843px;
+}
+.desktop-4 .overlap-group8 {
+  align-items: flex-start;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 882px;
+  min-width: 172px;
+  padding: 10px;
+  position: absolute;
+  top: 725px;
+}
+.desktop-4 .overlap-group9 {
+  align-items: flex-end;
+  background-image: url();
+  background-size: 100% 100%;
+  display: flex;
+  height: 46px;
+  justify-content: flex-end;
+  left: 351px;
+  min-width: 234px;
+  padding: 10px 33px;
+  position: absolute;
+  top: 1223px;
+}
+.desktop-4 .personal-data {
+  height: 25px;
+  left: 109px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 23px;
+  width: 454px;
+}
+.desktop-4 .place {
+  height: 25px;
+  left: 74px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 10px;
+  width: 406px;
+}
+.desktop-4 .place-1 {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 159px;
+}
+.desktop-4 .place-2 {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 130px;
+}
+.desktop-4 .place-3 {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 130px;
+}
+.desktop-4 .place-4 {
+  height: 23px;
+  left: 915px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 905px;
+  width: 163px;
+}
+.desktop-4 .poblacin {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 162px;
+}
+.desktop-4 .postal-code {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 137px;
+}
+.desktop-4 .province {
+  height: 25px;
+  letter-spacing: 0px;
+  min-height: 25px;
+  width: 152px;
+}
+.desktop-4 .rectangle-5 {
+  height: 46px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 458px;
+}
+.desktop-4 .rectangle-6 {
+  height: 45px;
+  left: 0px;
+  position: absolute;
+  top: 0px;
+  width: 458px;
+}
+.desktop-4 .school {
+  height: 26px;
+  letter-spacing: 0px;
+  min-height: 26px;
+  width: 128px;
+}
+.desktop-4 .school-1 {
+  height: 26px;
+  letter-spacing: 0px;
+  min-height: 26px;
+  width: 129px;
+}
+.desktop-4 .secondary-school {
+  height: 23px;
+  left: 316px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1703px;
+  width: 399px;
+}
+.desktop-4 .sitios-web-y-redes-s {
+  height: 10px;
+  left: 11px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: 51px;
+}
+.desktop-4 .studies {
+  height: 9px;
+  left: 7px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 29px;
+  width: 51px;
+}
+.desktop-4 .studies-1 {
+  height: 25px;
+  left: 84px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 25px;
+  width: 267px;
+}
+.desktop-4 .study {
+  height: 26px;
+  letter-spacing: 0px;
+  min-height: 26px;
+  width: 130px;
+}
+.desktop-4 .study-1 {
+  height: 26px;
+  letter-spacing: 0px;
+  min-height: 26px;
+  width: 128px;
+}
+.desktop-4 .text-1 {
+  height: 23px;
+  left: 419px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 434px;
+  width: 371px;
+}
+.desktop-4 .text-2 {
+  height: 23px;
+  left: 822px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1703px;
+  width: 286px;
+}
+.desktop-4 .text-3 {
+  height: 23px;
+  left: 277px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1839px;
+  width: 483px;
+}
+.desktop-4 .text-4 {
+  height: 23px;
+  left: 383px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 2328px;
+  width: 483px;
+}
+.desktop-4 .text-5 {
+  height: 23px;
+  left: 383px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 2376px;
+  width: 576px;
+}
+.desktop-4 .text-6 {
+  height: 23px;
+  left: 876px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1444px;
+  width: 205px;
+}
+.desktop-4 .text-7 {
+  height: 46px;
+  left: 361px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1444px;
+  width: 236px;
+}
+.desktop-4 .text-8 {
+  height: 10px;
+  left: 11px;
+  letter-spacing: 0px;
+  position: absolute;
+  text-align: center;
+  top: 28px;
+  width: 50px;
+}
+.desktop-4 .text-9 {
+  height: 25px;
+  left: 111px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 23px;
+  width: 451px;
+}
+.desktop-4 .vilanova-de-segri {
+  height: 23px;
+  left: 371px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 900px;
+  width: 163px;
+}
+.desktop-4 .warehouse-waiter {
+  height: 23px;
+  left: 873px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 1281px;
+  width: 164px;
+}
+.desktop-4 .websites {
+  height: 25px;
+  left: 111px;
+  letter-spacing: 0px;
+  position: absolute;
+  top: 23px;
+  width: 451px;
+}
+.roboto-normal-black-18px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-24px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-black-48px {
+  color: black;
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-mist-gray-10px {
+  color: var(--mist-gray);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-mist-gray-18px {
+  color: var(--mist-gray);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.roboto-normal-mist-gray-9px {
+  color: var(--mist-gray);
+  font-family: "Roboto", Helvetica, Arial, serif;
+  font-size: 9px;
+  font-style: normal;
+  font-weight: 400;
+}
+:root {
+  --mist-gray: rgba(196, 196, 196, 1);
+}
+@keyframes animate-enter-frames {
+  from {
+    opacity: 0;
+    transform: scale(0.9);
+  }
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.valign-text-middle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+a {
+  text-decoration: none;
+  display: contents;
+}
